@@ -490,6 +490,10 @@ a:focus {
   display: block;
 }
 
+.about_section{
+  background-color: #f4f5f7;
+}
+
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -504,7 +508,7 @@ a:focus {
   display: inline-block;
   padding: 7px 25px;
   background-color: #252525;
-  color: #ffffff;
+  color: #f4f5f7;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -513,7 +517,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: transparent;
+  background-color: #f4f5f7;
   border-color: #252525;
   color: #252525;
 }
@@ -525,6 +529,7 @@ a:focus {
 .trending_section {
   background-color: #f4f5f7;
 }
+
 
 .trending_section .tab_container .t-link-box {
   margin: 65px 0;
