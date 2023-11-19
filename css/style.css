@@ -673,7 +673,8 @@ a:focus {
           flex: 0 0 23.24670%;
 }
 /* #399f31 */
-.brand_section .brand_container .box h6 {
+.brand_section .brand_container .box h5 {
+  padding: 10px;
   color: #252525;
 }
 
@@ -681,6 +682,9 @@ a:focus {
   color: #399f31;
 }
 
+.brand_section .brand_container .box h5:hover {
+  color: #FFFFFF;
+}
 .brand_section .brand_container .box .new {
   position: absolute;
   top: 0;
