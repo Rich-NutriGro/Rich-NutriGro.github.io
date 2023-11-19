@@ -1078,4 +1078,9 @@ a:focus {
   -webkit-transform: rotate(-45deg) translate(7px, -10px);
           transform: rotate(-45deg) translate(7px, -10px);
 }
+
+a:link, a:visited {
+  color:#FFFFFF;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
