@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  /* background-image: url(../images/hero-bg.jpg); */
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ body {
   right: 0;
   width: 45%;
   height: 100%;
-  background-image: url(../images/hero-side-bg-1.png);
+  /* background-image: url(../images/hero-side-bg-1.png); */
   background-size: cover;
 }
 
@@ -1087,4 +1087,31 @@ a:link, a:visited {
   color:#FFFFFF;
   cursor: pointer;
 }
+/* carousel CSS 399f31*/
+.carousel-content {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #399f31;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* Background color with some transparency */
+}
+
+.carousel-content h2 {
+  font-size: 3em;
+}
+
+.carousel-content p {
+  font-size: 1.5em;
+}
+
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
 /*# sourceMappingURL=style.css.map */
