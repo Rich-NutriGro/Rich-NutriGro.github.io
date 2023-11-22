@@ -55,25 +55,25 @@ body {
 }
 
 /*header section*/
-.hero_area {
+/* .hero_area {
   height: 100vh;
-  /* background-image: url(../images/hero-bg.jpg); */
+  background-image: url(../images/hero-bg.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   overflow: hidden;
-}
+} */
 
-.hero_area::after {
+/* .hero_area::after {
   content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   width: 45%;
   height: 100%;
-  /* background-image: url(../images/hero-side-bg-1.png); */
+  background-image: url(../images/hero-side-bg-1.png);
   background-size: cover;
-}
+} */
 
 .sub_page .hero_area {
   height: auto;
